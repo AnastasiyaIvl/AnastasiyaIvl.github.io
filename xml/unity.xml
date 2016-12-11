@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="tabl.xsl"?>
+
+ 
+<tabl>
+<unity>
+	<number>1</number>
+	<name align="center">Андрух Анна Алексеевна </name>
+	<block>502(б)</block>
+	<kurs>магистрант</kurs> 
+</unity>
+
+<unity>
+	<number> 2 </number>
+	<name align="center">Минина Валерия Александровна</name>
+	<block>502(а)</block>
+	<kurs>ФИТ,3-1</kurs> 
+</unity>
+
+<unity>
+	<number> 3 </number>
+	<name align="center">Сапаров Гуванч Бегенчевич </name>
+	<block>504(б)</block>
+	<kurs>ТОВ,4-2</kurs> 
+</unity>
+
+<unity>
+	<number> 4</number>
+	<name align="center">Ивлиева Анастасия Андреевна </name>
+	<block>505 (б) </block>
+	<kurs>ФИТ,2-7 </kurs> 
+</unity>
+
+<unity>
+	<number> 5 </number>
+	<name align="center">Терещенкова Мария</name>
+	<block>505(а) </block>
+	<kurs>ХТиТ,5-1 </kurs> 
+	 
+</unity>
+
+<unity>
+	<number> 6 </number>
+	<name align="center">Бешимов Довлет Агоджанович </name>
+	<block>509(а) </block>
+	<kurs>ФИТ,2-1 </kurs>
+</unity>
+
+<unity>
+	<number> 7 </number>
+	<name align="center">Джуманиязов Рустам</name>
+	<block>511(б)</block>
+	<kurs>ТОВ,5-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 8 </number>
+	<name align="center">Алламурадова Юлдуз Алламурадова</name>
+	<block>601(б)</block>
+	<kurs>ХТиТ,4-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 9 </number>
+	<name align="center">Ягшыева Дженнет Жангельдиева </name>
+	<block>601(б) </block>
+	<kurs>ИЭФ,4-2 </kurs> 
+</unity>
+
+<unity>
+	<number> 10 </number>
+	<name align="center">Хаппи Вако Блек Жюниор</name>
+	<block>602(а) </block>
+	<kurs>ТОВ,4-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 11</number>
+	<name align="center">Дурдыев Мерет Сергеевич </name>
+	<block>603(б)</block>
+	<kurs>ТОВ,3-3 </kurs> 
+</unity>
+
+<unity>
+	<number>12 </number>
+	<name align="center">Дурдыев Сердар Сергеевич</name>
+	<block>603(б) </block>
+	<kurs>ФИТ,1-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 13 </number>
+	<name align="center">Сапаров Сердар </name>
+	<block>607(а)</block>
+	<kurs>ТОВ,2-1</kurs> 
+</unity>
+
+<unity>
+	<number> 14 </number>
+	<name align="center">Делаков Мухидин Нарбаевич </name>
+	<block>606(б) </block>
+	<kurs>ХТиТ,3-11 </kurs> 
+</unity>	
+
+<unity>
+	<number> 15 </number>
+	<name align="center">Ягшыев Атаджан Джангелдиевич </name>
+	<block>608(б)</block>
+	<kurs>пИЭФ,4-2	 </kurs> 
+</unity>
+
+<unity>
+	<number> 16 </number>
+	<name align="center">Ягмуров Лукман </name>
+	<block>612(а) </block>
+	<kurs>ИЭФ,1-5	 </kurs> 
+</unity>
+
+<unity>
+	<number> 17 </number>
+	<name align="center">Гурдов Кервендурды </name>
+	<block>612(а)</block>
+	<kurs>ИЭФ,1-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 18</number>
+	<name align="center">Аманов Байраммырат </name>
+	<block>612(а) </block>
+	<kurs>ИЭФ,1-1 </kurs> 
+</unity>
+
+<unity>
+	<number> 19</number>
+	<name align="center">Эминов Керим </name>
+	<block>612(б) </block>
+	<kurs>ТОВ, 5-3 </kurs> 
+</unity>
+
+<unity>
+	<number> 20</number>
+	<name align="center">Ожелевский Олег Юрьевич </name>
+	<block>616(а)</block>
+	<kurs>ЛХФ,2-5 </kurs> 
+</unity>
+
+
+</tabl>

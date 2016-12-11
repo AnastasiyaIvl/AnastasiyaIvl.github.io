@@ -1,0 +1,110 @@
+td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+:focus {
+outline: 0;
+}
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+header, nav, section, article, aside, footer {
+display: block;
+}
+
+/* TABS */
+.tabs {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+}
+.tabs label {
+	display: block;
+	float: left;
+	background: -moz-linear-gradient(top,  #AFEEEE 0%, #eff0f4 4%, #dddee0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(4%,#eff0f4), color-stop(100%,#dddee0));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eff0f4 4%,#dddee0 100%);
+	background: -o-linear-gradient(top,  #AFEEEE 0%,#eff0f4 4%,#dddee0 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eff0f4 4%,#dddee0 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#eff0f4 4%,#dddee0 100%);
+	
+	
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	border-right: 1px solid #AFEEEE;
+	border-left: 1px solid #AFEEEE;
+	color: #008B8B;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+        left: 0px;
+	width: 223px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: #AFEEEE 0 1px 0;
+	z-index: 1;}
+.tabs input {
+	position: absolute;
+	left: -9999px;
+}
+#tab_1:checked  ~ #tab_l1,
+#tab_2:checked  ~ #tab_l2,
+#tab_3:checked  ~ #tab_l3
+
+{
+	background: #B0E0E6;
+	
+	
+	z-index: 6;}
+
+.tabs_cont {
+	background:  #DCDCDC;
+	-moz-border-radius: 0 6px 6px 6px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	border-radius: 16px 16px 16px 16px;
+	-moz-box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 2px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 2px 2px 2px rgba(0,0,0,0.1);
+	box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 2px 2px 2px rgba(0,0,0,0.1);
+	padding: 20px 25px;
+	position: relative;
+	z-index: 2;
+	height: auto;
+}
+.tabs_cont > div {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	opacity: 0;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;}
+
+#tab_1:checked ~ .tabs_cont #tab_c1,
+#tab_2:checked ~ .tabs_cont #tab_c2,
+#tab_3:checked ~ .tabs_cont #tab_c3
+
+ {
+	position: static;
+	left: 0;
+	opacity: 1;}
